@@ -10,7 +10,7 @@ terraform {
 
 provider "aws" {
   region  = "eu-central-1"
-  profile = "881340943714_AWSPowerUserAccess"
+  profile = "AWSPowerUserAccess-881340943714"
 }
 
 resource "aws_vpc" "bachelor_vpc_01" {
